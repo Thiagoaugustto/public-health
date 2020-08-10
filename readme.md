@@ -13,7 +13,7 @@ Esboço de um simples sistema de saúde publica.
 
 ## ScreenShots
 
-![Inicio](screenshots/01.PNG)
+![Inicio](screenshots/01.jpg)
 
 ## License
 
