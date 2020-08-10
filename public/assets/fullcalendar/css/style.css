@@ -1,0 +1,142 @@
+#calendar-wrap {
+  margin-left: 90px;
+}
+
+#calendar {
+  width: 900px;
+  margin: 40px 0;
+}
+
+#calendar .fc-view-harness {
+  background: #ffffffdb;
+  box-shadow: 0 0px 5px rgb(165, 157, 157);
+}
+
+.navbar-right {
+	flex-direction: inherit;
+}
+
+.form-control, .btn, label{
+	font-size: 16px;
+	font-weight: normal;
+}
+
+.close {
+  font-size: 22px;
+}
+
+.modal-title {
+  display: inline;
+	color: #10080d70;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin: 5px;
+  padding: 3px;
+  border-left: 3px solid #83df7e;
+}
+
+.form-group {
+    margin-bottom: 2rem;
+}
+
+.navbar-collapse {
+	position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.top-right-home {
+	height: 55px;
+}
+
+.top-right-home:hover {
+	height: 73px;
+}
+
+.top-right-user {
+  width: 176px;
+	height: 48px;
+	right: 20px;
+}
+
+.dropdown-menu {
+	margin-top: -2px !important;
+}
+
+.top-right-menu {
+  height: 48px;
+}
+
+.top-right-menu:hover {
+  height: 73px;
+}
+
+.fc-button-group .fc-button-primary {
+	background-color: #83df7e;
+  border-color: #76d670;
+}
+
+.fc-button-group .fc-button-primary:hover {
+	background-color: #72be6e;
+  border-color: #76d670;
+}
+
+.fc-button-group .fc-button-primary:not(:disabled).fc-button-active {
+	background-color: #76d670;
+  border-color: #76d670;
+}
+
+.fc-toolbar-chunk h2 {
+	color: #10080d70;
+  font-size: 18px;
+  font-weight: 200;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.mobile-nav {
+  margin-top: -50px;
+}
+
+select.form-control-lg:not([size]):not([multiple]) {
+  height: 3.875rem;
+}
+
+.fc .fc-toolbar-title {
+  font-size: 1.75em;
+  font-weight: 400;
+  margin: 0;
+}
+
+.fc-event-title {
+  text-transform: uppercase;
+}
+
+.modal-header {
+  display: block;
+  padding: 15px;
+}
+
+.form-group label {
+  display: inline-block;
+  margin-bottom: .5rem;
+  color: #10080d70;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.form {
+  color: #0b0709e3;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  text-decoration: none;
+  text-transform: uppercase;
+}

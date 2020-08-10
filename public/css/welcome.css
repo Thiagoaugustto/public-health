@@ -1,0 +1,165 @@
+html, body {
+
+    color: #636b6f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    height: 100vh;
+    margin: 0;
+    background: url('/imagens/9e257a_cea9a95ccfa1423d812713df26eb6218_mv2.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #f0f8ff;
+
+}
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right-enter {
+    position: absolute !important;
+    right: 160px;
+    top: 0;
+    background-color: #83df7e;
+    padding: 15px 0;
+}
+
+.top-right-enter:hover {
+    padding: 30px 0;
+}
+
+.top-right-register {
+    position: absolute;
+    right: 20px;
+    top: 0;
+    background-color: #83df7e;
+    padding: 15px 0;
+}
+
+.top-right-register:hover {
+    padding: 30px 0;
+}
+
+.content {
+    text-align: center;
+    margin-bottom: 85px;
+}
+
+.title {
+    font-size: 55px;
+    font-weight: 200;
+    color:#302e4e;
+}
+
+.links > a {
+    color: #10080d;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.links > a:hover {
+    font-size: 14px;
+}
+
+.links-top > a {
+    color: #ffffff;
+    padding: 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.m-b-md {
+    margin-bottom: 20px;
+}
+
+/* Style for mobile devices */
+
+@media only screen and (max-width: 768px) and (min-width: 577px){
+
+    body {
+        background-position: bottom;
+    }
+
+    .title {
+        font-size: 40px;
+    }
+
+    .links > a {
+        padding: 0 10px;
+    }
+
+}
+
+@media only screen and (max-width: 576px) and (min-width: 501px){
+
+    body {
+        background-position: bottom;
+    }
+
+    .title {
+        font-size: 35px;
+    }
+
+    .links > a {
+        font-size: 10px;
+        padding: 0 5px;
+    }
+
+}
+
+@media only screen and (max-width: 500px) and (min-width: 0){
+
+    body {
+        background-position: bottom;
+        background-size: 665px;
+    }
+
+    .top-right-enter {
+        display: none;
+    }
+
+    .top-right-register {
+        display: none;
+    }
+
+    .menu-mobile {
+        display: block !important;
+    }
+
+    .links {
+        display: none;
+    }
+    
+    .title {
+       display: none;
+    }
+
+    .links > a {
+        font-size: 7px;
+    }
+
+}
+
+@media only screen and (max-height: 700px) {
+    body {
+        background-size: 545px;
+    }
+}
